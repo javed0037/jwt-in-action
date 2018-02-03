@@ -4,7 +4,7 @@ var app = express();
 app.get('/fapi',(req,res) => {
   res.json({
     text:'this is get api'
-  });
+  });  
 });
 app.post('/fapi/Loginuser',(req,res)=>{
   const user = { id:3 };
